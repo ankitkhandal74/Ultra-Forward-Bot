@@ -70,6 +70,10 @@ class Bot(Client):
         await super().stop()
         logging.info(msg)
 
+        app = Bot()
+         app.run()
+
+
 
 
 
